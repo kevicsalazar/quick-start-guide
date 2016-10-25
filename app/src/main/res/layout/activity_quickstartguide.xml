@@ -12,7 +12,8 @@
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingBottom="56dp"/>
+        android:paddingBottom="56dp"
+        android:paddingTop="24dp"/>
 
     <LinearLayout
         android:id="@+id/layoutFooter"

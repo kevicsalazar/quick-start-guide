@@ -18,7 +18,7 @@
         <activity
             android:name=".QuickStartGuideActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.FullScreen"/>
+            android:theme="@style/AppTheme.Translucent"/>
     </application>
 
 </manifest>

@@ -1,10 +1,14 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <style name="AppTheme.Translucent" parent="AppTheme" />
 
     <declare-styleable name="PageIndicator">
         <attr name="indicator_spacing" format="dimension"/>
@@ -15,11 +19,6 @@
         <attr name="indicator_color" format="color"/>
         <attr name="indicator_color_selected" format="color"/>
     </declare-styleable>
-
-    <style name="AppTheme.Translucent" parent="AppTheme">
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-    </style>
 
     <style name="AppTheme.FullScreen" parent="AppTheme">
         <item name="android:windowFullscreen">true</item>
