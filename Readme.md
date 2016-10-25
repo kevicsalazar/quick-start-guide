@@ -1,1 +1,1 @@
-This is an example to show how you can integrate a Quick Start Guide in your application.
+Quick Start Guide example Android Application.
