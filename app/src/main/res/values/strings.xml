@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuickStartGuide</string>
+    <string name="skip">Saltar</string>
+    <string name="done">Hecho</string>
+</resources>
