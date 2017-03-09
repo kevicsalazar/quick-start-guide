@@ -1,1 +1,0 @@
-Quick Start Guide example Android Application.

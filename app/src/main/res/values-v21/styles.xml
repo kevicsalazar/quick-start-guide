@@ -12,7 +12,6 @@
     <style name="AppTheme.Translucent" parent="AppTheme">
         <item name="colorPrimaryDark">@color/colorPrimary</item>
         <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowTranslucentNavigation">true</item>
     </style>
 
 </resources>
